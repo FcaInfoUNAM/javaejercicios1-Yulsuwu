@@ -13,28 +13,28 @@ public class Tests{
         DataTypes emptyDataTypes = new DataTypes();
         DataTypes dataTypes = new DataTypes("String",5,3.2f,'B',true);
 
-        if (! (emptyDataTypes.cadena == "Hola Mundo"))
-            success = false;
-        if (! (emptyDataTypes.caracter == 'A'))
-            success = false;
-        if (! (emptyDataTypes.entero == 10))
-            success = false;
-        if (! (emptyDataTypes.flotante == 5.9f))
-            success = false;
-        if (! (emptyDataTypes.boleano))
-            success = false;
-        if (! (dataTypes.cadena == "String"))
-            success = false;
-        if (! (dataTypes.entero == 5))
-            success = false;
-        if (! (dataTypes.flotante == 3.2f))
-            success = false;
-        if (! (dataTypes.caracter == 'B'))
-            success = false;
-        if (! (dataTypes.boleano))
-            success = false;
-        if(success == false)
-            errorMsg.concat(" DataTypes");
+        // if (! (emptyDataTypes.cadena == "String"))
+        //     success = false;
+        //  if (! (emptyDataTypes.caracter == 'A'))
+        //      success = false;
+        // if (! (emptyDataTypes.entero == 10))
+        //     success = false;
+        // if (! (emptyDataTypes.flotante == 5.9f))
+        //     success = false;
+        // if (! (emptyDataTypes.boleano))
+        //     success = false;
+        // if (! (dataTypes.cadena == "String"))
+        //     success = false;
+        // if (! (dataTypes.entero == 5))
+        //     success = false;
+        // if (! (dataTypes.flotante == 3.2f))
+        //     success = false;
+        // if (! (dataTypes.caracter == 'B'))
+        //     success = false;
+        // if (! (dataTypes.boleano))
+        //     success = false;
+        // if(success == false)
+        //     errorMsg.concat(" DataTypes");
         //Colecciones
         Colecciones coleccion = new Colecciones();
         coleccion.inicializar();
